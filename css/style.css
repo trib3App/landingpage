@@ -1,0 +1,95 @@
+body{
+    background-color: #14021D!important;
+    color: #ffffff!important;
+    float: none;
+    margin: 0;
+    font-family: 'jeko'!important;
+}
+@font-face {
+    font-family: 'jeko';
+    src: local('jeko'), url('/css/fonts/Jeko/Jeko/JekoLight.ttf') format('truetype');
+    font-weight: 200;
+  }
+  @font-face {
+    font-family: 'jeko';
+    src: local('jeko'), url('/css/fonts/Jeko/Jeko/JekoRegular.ttf') format('truetype');
+    font-weight: 400;
+  }
+   @font-face {
+    font-family: 'jeko';
+    src: local('jeko'), url('/css/fonts/Jeko/Jeko/JekoBlack.ttf') format('truetype');
+    font-weight: 900;
+  } 
+  @font-face {
+    font-family: 'jeko';
+    src: local('jeko'), url('/css/fonts/Jeko/Jeko/JekoBold.ttf') format('truetype');
+    font-weight: 700;
+  }
+  h1,h2{
+    font-family: 'jeko'!important;
+    font-weight: 700;
+  }
+
+.imgLogo{
+    width: 300px!important;
+    height: auto;
+}
+
+#header{
+    background-color: #14021D;
+    /* background-image: linear-gradient(to bottom, rgba(20, 2, 29,0),rgba(20,2,29,1)),url('/images/banner3.png'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.customNav{
+    background: linear-gradient(to bottom, rgba(20,2,29,1),rgba(20,2,29,0.4),rgba(20,2,29,0));
+
+}
+.mockupImg{
+    height: 350px!important;
+    max-height: 350px!important;
+    width: auto;
+}
+.space{
+    margin-top: 30px;
+}
+.customShadow{
+    box-shadow: 6px 3px 5px 6px#7a003198;
+    border-radius: 20px;
+}
+
+.yellowText{
+    color: #EAB130;
+}
+.imgLogoSm{
+    width: 100px!important;
+}
+.pill-sm{
+    border: none;
+    font-weight: bold!important;
+    color: white;
+    padding: 5pt 10pt 5pt 10pt;
+    font-size: 10pt;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 40px;
+  }
+  .redPill{
+    background-color: #D40054;
+  
+  }
+  .redPill:hover{
+    color: #ffffff;
+    background-color: #A4134C;
+  }
+  .terciaryPill{
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, .15);
+  }
+  .terciaryPill:hover{
+    color: #14021D;
+    background-color: #ffffff;
+    }
