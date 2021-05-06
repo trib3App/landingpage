@@ -7,22 +7,22 @@ body{
 }
 @font-face {
     font-family: 'jeko';
-    src: local('jeko'), url('./css/fonts/Jeko/Jeko/JekoLight.ttf') format('truetype');
+    src: local('jeko'), url('./fonts/Jeko/Jeko/JekoLight.ttf') format('truetype');
     font-weight: 200;
   }
   @font-face {
     font-family: 'jeko';
-    src: local('jeko'), url('./css/fonts/Jeko/Jeko/JekoRegular.ttf') format('truetype');
+    src: local('jeko'), url('./fonts/Jeko/Jeko/JekoRegular.ttf') format('truetype');
     font-weight: 400;
   }
    @font-face {
     font-family: 'jeko';
-    src: local('jeko'), url('./css/fonts/Jeko/Jeko/JekoBlack.ttf') format('truetype');
+    src: local('jeko'), url('./fonts/Jeko/Jeko/JekoBlack.ttf') format('truetype');
     font-weight: 900;
   } 
   @font-face {
     font-family: 'jeko';
-    src: local('jeko'), url('./css/fonts/Jeko/Jeko/JekoBold.ttf') format('truetype');
+    src: local('jeko'), url('./fonts/Jeko/Jeko/JekoBold.ttf') format('truetype');
     font-weight: 700;
   }
   h1,h2{
