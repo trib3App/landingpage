@@ -2,13 +2,17 @@ import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'antd/dist/antd.min.css'
 import './App.css';
-import {Row, Col, Typography, Image, Carousel, Form, Input} from 'antd'
+import {Row, Col, Typography, message, Carousel, Form, Input} from 'antd'
 import ReactCardCarousel from "react-card-carousel";
-
+import axios from 'axios'
 const {Title, Text} = Typography
 const { TextArea } = Input;
 function App() {
   const form = Form.useForm();
+  const onFinish = async (form) => {
+    let error = false;
+    axios.post('http://34.228.25.223:8080/api/support/contact', form).catch((err) => {error= true; message.error("Vaya algo, a salido mal por favor recargue la página e inténtelo de nuevo.")})
+  }
   return (
     <div className="App">
       <div id="header" className="container">
@@ -195,7 +199,7 @@ function App() {
 
                   </Col>
                 </Row>
-              <Form>
+              <Form onFinish={(data) => onFinish(data)}>
                 <Form.Item
                   name="email"
                   label={<span className="text-white">Email</span>}
@@ -211,6 +215,13 @@ function App() {
                   <Input></Input>
                 </Form.Item>
                 <Form.Item
+                  name="surname"
+                  label={<span className="text-white">Apellidos</span>}
+                  required
+                >
+                  <Input></Input>
+                </Form.Item>
+                <Form.Item
                   name="city"
                   label={<span className="text-white">Ciudad</span>}
                   required
@@ -218,7 +229,7 @@ function App() {
                   <Input></Input>
                 </Form.Item>
                 <Form.Item
-                  name="business"
+                  name="enterpriseName"
                   label={<span className="text-white">Empresa</span>}
                   required
                 >
