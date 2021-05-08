@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@font-face {
+  font-family: 'jeko';
+  src: local('jeko'), url('./fonts/Jeko/JekoLight.ttf') format('truetype');
+  font-weight: 200;
+}
+@font-face {
+  font-family: 'jeko';
+  src: local('jeko'), url('./fonts/Jeko/JekoRegular.ttf') format('truetype');
+  font-weight: 400;
+}
+ @font-face {
+  font-family: 'jeko';
+  src: local('jeko'), url('./fonts/Jeko/JekoBlack.ttf') format('truetype');
+  font-weight: 900;
+} 
+@font-face {
+  font-family: 'jeko';
+  src: local('jeko'), url('./fonts/Jeko/JekoBold.ttf') format('truetype');
+  font-weight: 700;
+}
