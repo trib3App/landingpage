@@ -4,6 +4,7 @@ import 'antd/dist/antd.min.css'
 import './App.css';
 import {Row, Col, Typography, Image, Carousel, Form, Input} from 'antd'
 import ReactCardCarousel from "react-card-carousel";
+
 const {Title, Text} = Typography
 const { TextArea } = Input;
 function App() {
@@ -57,7 +58,7 @@ function App() {
         </Row>
         <Row justify="center mt-5">
           <Col xs={24}>
-          <div className="d-block d-sm-none">
+          <div className="d-lg-none">
             <Carousel>
               <div className="p-3">
               <img
@@ -76,29 +77,36 @@ function App() {
 
           </div>
           </Col>
-        <Col xs={20} className="text-center"
-        style={
-          {
-            position: "relative",
-            height: "30vh",
-            width: "100%",
-            display: "flex",
-            flex: 1,
-            justifyContent: "center",
-            alignItems: "middle"
-          }
-        } 
-        >
-          <ReactCardCarousel className="d-none d-sm-block">
-          <img
-            className="img-fluid customShadow"
-            src="https://trib3app.github.io/landingpage/images/gestionBig.png"
-          />
-                    <img
+        <Col xs={20} className="text-center d-none d-lg-block">
+          <div
+                  style={
+                    {
+                      position: "relative",
+                      height: "30vh",
+                      width: "100%",
+                      display: "flex",
+                      flex: 1,
+                      justifyContent: "center",
+                      alignItems: "middle"
+                    }
+                  } 
+          >
+          <ReactCardCarousel className="d-none d-lg-block">
+            <div>
+              <img
+              className="img-fluid customShadow"
+              src="https://trib3app.github.io/landingpage/images/gestionBig.png"
+            />
+            </div>
+            <div>
+            <img
             className="img-fluid customShadow"
             src="https://trib3app.github.io/landingpage/images/tpv2.png"
           />
+            </div>
           </ReactCardCarousel>
+        
+          </div>
           </Col>  
         </Row>
       </div>
@@ -113,7 +121,7 @@ function App() {
         </Row>
         <Row className="mt-5" justify="center" >
           <Col xs={24}>
-          <div className="d-block d-sm-none">
+          <div className="d-block d-md-none">
 
             <Carousel>
               <div className="p-3">
@@ -137,20 +145,21 @@ function App() {
             </Carousel>
           </div> 
           </Col>
-        <Col xs={20} className="text-center"
-        style={
-          {
-            position: "relative",
-            height: "30vh",
-            width: "100%",
-            display: "flex",
-            flex: 1,
-            justifyContent: "center",
-            alignItems: "middle"
-          }
-        }
-        >
-          <ReactCardCarousel className="d-none d-sm-block">
+        <Col xs={20} className="text-center d-none d-lg-block">
+          <div
+                  style={
+                    {
+                      position: "relative",
+                      height: "30vh",
+                      width: "100%",
+                      display: "flex",
+                      flex: 1,
+                      justifyContent: "center",
+                      alignItems: "middle"
+                    }
+                  }
+          >
+          <ReactCardCarousel>
           <img
             className="img-fluid customShadow"
             src="https://trib3app.github.io/landingpage/images/Retargeting.png"
@@ -164,7 +173,9 @@ function App() {
             src="https://trib3app.github.io/landingpage/images/ENGAGEMENT.png"
           />
           </ReactCardCarousel>
-      </Col>  
+      
+          </div>
+          </Col>  
         </Row>
       </div>   
       <div className="mt-20 container" id="contacto">
