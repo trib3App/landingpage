@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth!important;
 }
 body{
-  background-color: #14021D!important;
+  background-color: #17011e!important;
   color: #ffffff!important;
   float: none;
   margin: 0;
@@ -27,7 +27,7 @@ h1,h2{
 }
 
 #header{
-  background-color: #14021D;
+  background-color: #17011e;
   /* background-image: linear-gradient(to bottom, rgba(20, 2, 29,0),rgba(20,2,29,1)),url('/images/banner3.png'); */
   background-repeat: no-repeat;
   background-size: cover;
@@ -36,6 +36,9 @@ h1,h2{
 }
 .mt-20{
   margin-top: 10rem;
+}
+.mt-10{
+  margin-top: 5rem;
 }
 .customNav{
   background: linear-gradient(to bottom, rgba(20,2,29,1),rgba(20,2,29,0.4),rgba(20,2,29,0));
@@ -95,7 +98,7 @@ h1,h2{
   }
 
 .contactCard{
-  background-color: #1b1b1b;
+  background-color: #200e2b;
   border-radius: 20px;
   padding: 20px;
 }

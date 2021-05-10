@@ -11,7 +11,10 @@ function App() {
   const form = Form.useForm();
   const onFinish = async (form) => {
     let error = false;
-    axios.post('http://34.228.25.223:8080/api/support/contact', form).catch((err) => {error= true; message.error("Vaya algo, a salido mal por favor recargue la página e inténtelo de nuevo.")})
+    axios.post('http://34.228.25.223:3001/api/support/contact', form).catch((err) => {error= true; message.error("Vaya algo, a salido mal por favor recargue la página e inténtelo de nuevo.")})
+    if(!error){
+      message.success("Mensaje enviado, revisa tu correo.")
+    }
   }
   return (
     <div className="App">
@@ -60,7 +63,7 @@ function App() {
               Utilizamos la información de compra a tiempo real para desarrollar una herramienta de venue management que informa sobre la clientela presente y permite realizar cambios para perfeccionar su experiencia con un diseño intuitivo y sencillo.                            </Text>
             </Col>
         </Row>
-        <Row justify="center mt-5">
+        <Row justify="center mt-20">
           <Col xs={24}>
           <div className="d-lg-none">
             <Carousel>
@@ -123,7 +126,7 @@ function App() {
               </Text>
             </Col>
         </Row>
-        <Row className="mt-5" justify="center" >
+        <Row className="mt-20" justify="center" >
           <Col xs={24}>
           <div className="d-block d-md-none">
 
