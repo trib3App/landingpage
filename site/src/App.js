@@ -21,7 +21,7 @@ function App() {
       <div id="header" className="container">
         <Row justify="center" gutter={[32,32]} align="middle">
           <Col xs={24} md={12}>
-          <img src="https://trib3app.github.io/landingpage/images/logo.png" className="img-fluid pt-3" alt=""/>
+          <img src="/images/logo.png" className="img-fluid pt-3" alt=""/>
             <Title level={1} className="text-white mt-3">Controla la noche</Title>
             <Row gutter={16}>
               <Col>
@@ -32,7 +32,7 @@ function App() {
             </Row>
           </Col>
           <Col xs={24} md={12}>
-            <img src="https://trib3app.github.io/landingpage/images/mockup1.png" className="img-fluid" alt=""/>
+            <img src="/images/mockup1.png" className="img-fluid" alt=""/>
           </Col>
         </Row>
       </div>
@@ -51,7 +51,7 @@ function App() {
               </Text>
             </Col>
             <Col xs={24} md={8}>
-              <img src="https://trib3app.github.io/landingpage/images/visibilidad.png" alt="" className="img-fluid"/>
+              <img src="/images/visibilidad.png" alt="" className="img-fluid"/>
             </Col>
         </Row>
       </div>
@@ -70,13 +70,13 @@ function App() {
               <div className="p-3">
               <img
             className="img-fluid customShadow"
-            src="https://trib3app.github.io/landingpage/images/gestionBig.png"
+            src="/images/gestionBig.png"
           />
               </div>
               <div className="p-3">
               <img
             className="img-fluid customShadow"
-            src="https://trib3app.github.io/landingpage/images/tpv2.png"
+            src="/images/tpv2.png"
           />
               </div>
 
@@ -102,13 +102,13 @@ function App() {
             <div>
               <img
               className="img-fluid customShadow"
-              src="https://trib3app.github.io/landingpage/images/gestionBig.png"
+              src="/images/gestionBig.png"
             />
             </div>
             <div>
             <img
             className="img-fluid customShadow"
-            src="https://trib3app.github.io/landingpage/images/tpv2.png"
+            src="/images/tpv2.png"
           />
             </div>
           </ReactCardCarousel>
@@ -134,19 +134,19 @@ function App() {
               <div className="p-3">
                 <img
                 className="img-fluid customShadow"
-                src="https://trib3app.github.io/landingpage/images/Retargeting.png"
+                src="/images/Retargeting.png"
                 />
               </div>
               <div className="p-3">
               <img
             className="img-fluid customShadow"
-            src="https://trib3app.github.io/landingpage/images/IMPULSO.png"
+            src="/images/IMPULSO.png"
           />
               </div>
               <div className="p-3">
               <img
             className="img-fluid customShadow"
-            src="https://trib3app.github.io/landingpage/images/ENGAGEMENT.png"
+            src="/images/ENGAGEMENT.png"
           />
               </div>
             </Carousel>
@@ -169,15 +169,15 @@ function App() {
           <ReactCardCarousel>
           <img
             className="img-fluid customShadow"
-            src="https://trib3app.github.io/landingpage/images/Retargeting.png"
+            src="/images/Retargeting.png"
           />
           <img
             className="img-fluid customShadow"
-            src="https://trib3app.github.io/landingpage/images/IMPULSO.png"
+            src="/images/IMPULSO.png"
           />
           <img
             className="img-fluid customShadow"
-            src="https://trib3app.github.io/landingpage/images/ENGAGEMENT.png"
+            src="/images/ENGAGEMENT.png"
           />
           </ReactCardCarousel>
       
@@ -194,7 +194,7 @@ function App() {
               <div className="contactCard">
                 <Row className="mb-3" gutter={16}>
                   <Col>
-                  <img src="https://trib3app.github.io/landingpage/images/crown.png" alt="" className="img-fluid"/>
+                  <img src="/images/crown.png" alt="" className="img-fluid"/>
 
                   </Col>
                   <Col>
@@ -259,7 +259,7 @@ function App() {
         <hr/>
         <Row>
           <Col>
-            <img src="https://trib3app.github.io/landingpage/images/logo.png" alt="" className="img-fluid imgLogoSm"/>
+            <img src="/images/logo.png" alt="" className="img-fluid imgLogoSm"/>
           </Col> 
         </Row> 
       </div>         
