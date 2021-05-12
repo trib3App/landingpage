@@ -11,7 +11,7 @@ function App() {
   const form = Form.useForm();
   const onFinish = async (form) => {
     let error = false;
-    axios.post('http://50.16.27.140:3001/api/support/contact', form).catch((err) => {error= true; message.error("Vaya algo, a salido mal por favor recargue la página e inténtelo de nuevo.")})
+    axios.post('https://50.16.27.140:8080/api/support/contact', form).catch((err) => {error= true; message.error("Vaya algo, a salido mal por favor recargue la página e inténtelo de nuevo.")})
     if(!error){
       message.success("Mensaje enviado, revisa tu correo.")
     }
