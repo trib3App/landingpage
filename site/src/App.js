@@ -11,7 +11,7 @@ function App() {
   const form = Form.useForm();
   const onFinish = async (form) => {
     let error = false;
-    axios.post('http://50.16.27.140:8080/api/support/contact', form).catch((err) => {error= true; message.error("Vaya algo, a salido mal por favor recargue la página e inténtelo de nuevo.")})
+    axios.post('https://trib3.app/api/support/contact', form).catch((err) => {error= true; message.error("Vaya algo, a salido mal por favor recargue la página e inténtelo de nuevo.")})
     if(!error){
       message.success("Mensaje enviado, revisa tu correo.")
     }
@@ -21,7 +21,7 @@ function App() {
       <div id="header" className="container">
         <Row justify="center" gutter={[32,32]} align="middle">
           <Col xs={24} md={12}>
-          <img src="/images/logo.png" className="img-fluid pt-3" alt=""/>
+          <img src="/images/logo.svg" className="img-fluid pt-3" alt=""/>
             <Title level={1} className="text-white mt-3">Controla la noche</Title>
             <Row gutter={16}>
               <Col>
