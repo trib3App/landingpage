@@ -13,7 +13,10 @@ body{
 }
 h1,h2{
   font-family: 'jeko'!important;
-  font-weight: 700;
+  font-weight: 800!important;
+}
+.section{
+  font-weight: 700!important;
 }
 
 .imgLogo{
@@ -80,6 +83,28 @@ h1,h2{
   display: inline-block;
   border-radius: 40px;
 }
+.pill-md{
+  border: none;
+  font-weight: bold!important;
+  color: white;
+  padding: 8pt 13pt 8pt 13pt;
+  font-size: 15pt;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 40px;
+}
+.pill-lg{
+  border: none;
+  font-weight: bold!important;
+  color: white;
+  padding: 13pt 18pt 13pt 18pt;
+  font-size: 22pt;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 40px;
+}
 .redPill{
   background-color: #D40054;
 
@@ -104,4 +129,26 @@ h1,h2{
 }
 .customCard{
   
+}
+#home-desktop{
+  background-position: center center;
+
+/* Background image doesn’t tile */
+background-repeat: no-repeat;
+
+/* Background image is fixed in the viewport so that it doesn’t move when
+the content’s height is greater than the image’s height */
+background-attachment: fixed;
+
+/* This is what makes the background image rescale based
+on the container’s size */
+background-size: cover;
+  background-color: #1d0431!important;
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%!important;
+  max-height: 100vh!important;
+}
+.yellowText{
+color: #EAB130!important;
 }
